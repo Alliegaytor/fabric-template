@@ -3,31 +3,24 @@
 	"id": "modid",
 	"version": "${version}",
 	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "The bees are gay, Jim",
 	"authors": [
-		"Me!"
+		"Alliegaytor"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": "https://github.com/Alliegaytor/fabric-template"
 	},
-	"license": "CC0-1.0",
+	"license": "BSD-2-Clause",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.ExampleModClient"
+			"xyz.alycat.modid.ExampleMod"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"modid.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

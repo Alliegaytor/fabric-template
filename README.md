@@ -1,9 +1,5 @@
-# Fabric Example Mod
+Alliegaytor's fabric mod template
 
-## Setup
+Now with extra gay*
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+<sup>batteries not included</sup>
